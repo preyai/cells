@@ -1,0 +1,33 @@
+:root {
+  background-color: #2d2d2d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+}
+
+.controls p {
+  margin: 10px 0;
+}
+
+.controls button {
+  display: block;
+  margin-top: 20px;
+}
+
+.inputContainer {
+  color: #fff;
+}
